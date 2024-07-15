@@ -18,7 +18,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 30px 0;
+  padding-top: 20px;
 }
 nav h3 {
   color: #3a3a3a;
@@ -59,3 +59,54 @@ nav ul li a {
   color: #000000;
 }
 /* Nav Section Code End */
+/* Banner Section Code Start  */
+#banner-section {
+  width: 80%;
+  height: 90vh;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: url(../images/Circle-design.svg);
+  background-repeat: no-repeat;
+  background-position: 682px;
+  background-size: 40%;
+}
+.banner-contant {
+  width: 45%;
+}
+.banner-contant p {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #3a3a3a;
+  margin-bottom: 34px;
+  text-align: justify;
+}
+.banner-contant button {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #fff;
+  background-color: #e02c6d;
+  padding: 15px 30px;
+  border: none;
+  cursor: pointer;
+  border-radius: 50px;
+}
+.banner-contant button span {
+  padding-left: 10px;
+}
+#banner-section img {
+  width: 40%;
+  text-align: center;
+  padding-left: 5%;
+}
+.brand-logo{
+    width: 80%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    justify-items: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+/* Banner Section Code End  */
