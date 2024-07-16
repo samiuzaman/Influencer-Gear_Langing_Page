@@ -232,3 +232,31 @@ nav ul li a {
   padding-left: 10px;
 }
 /* Featured Section Code End */
+/* Footer Secton Code Start */
+footer {
+  background-color: #0a0826;
+  text-align: center;
+  padding: 34px;
+  color: #fff;
+}
+footer h2 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+footer p {
+  font-size: 0.9rem;
+  font-weight: 400;
+  margin-bottom: 15px;
+  line-height: 35px;
+}
+footer a{
+  color: white;
+  text-decoration: none;
+}
+footer a i {
+  font-size: 2rem;
+  margin-top: 14px;
+  margin-left: 16px;
+}
+/* Footer Secton Code End */
