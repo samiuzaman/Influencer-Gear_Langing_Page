@@ -168,4 +168,19 @@ nav ul li a {
   color: #5e6366;
   text-align: justify;
 }
+#popular-collection-of-products button {
+  border: none;
+  background: none;
+  color: #e02c6ef5;
+  font-size: 1rem;
+  font-weight: 700;
+  position: relative;
+  left: 90%;
+  margin-top: 24px;
+}
+#popular-collection-of-products button span{
+  font-size: 1rem;
+  font-weight: 700;
+}
 /* Popular Collection Section Code End */
+

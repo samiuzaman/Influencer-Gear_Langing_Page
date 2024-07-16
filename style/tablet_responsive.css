@@ -38,5 +38,9 @@
     align-items: center;
     gap: 30px;
   }
+  #popular-collection-of-products button {
+    left: 8%;
+    margin-top: 24px;
+  }
   /* Popular Collection Section Code End */
 }
