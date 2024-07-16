@@ -100,13 +100,72 @@ nav ul li a {
   text-align: center;
   padding-left: 5%;
 }
-.brand-logo{
-    width: 80%;
-    margin: 0 auto;
-    display: grid;
-    grid-template-columns: repeat(7, 1fr);
-    justify-items: center;
-    align-items: center;
-    margin-bottom: 50px;
+.brand-logo {
+  width: 80%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  justify-items: center;
+  align-items: center;
+  margin-bottom: 50px;
 }
 /* Banner Section Code End  */
+/* Popular Collection Section Code Start */
+#popular-collection-of-products {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+#popular-collection-of-products h2 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #3a3a3a;
+  text-align: center;
+  margin-bottom: 24px;
+}
+.popular-collection-card-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+  align-items: center;
+  gap: 30px;
+}
+.popular-collection-product-card {
+  width: 320px;
+  height: 510px;
+  padding: 20px;
+  box-shadow: 10px 10px 40px #00000015;
+  border-radius: 5px;
+}
+.popular-collection-product-card img {
+  width: 100%;
+}
+.popular-collection-product-card h3 {
+  font-size: 1.6rem;
+  font-weight: 600;
+  margin-bottom: 14px;
+}
+.popular-collection-product-card h5 {
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin-bottom: 14px;
+}
+.popular-collection-product-card i {
+  color: #fb8200;
+  font-size: 0.9rem;
+  margin-bottom: 14px;
+}
+.popular-collection-product-card span {
+  color: #5e6366;
+  font-size: 0.9rem;
+  font-weight: 700;
+  padding-left: 10px;
+}
+.popular-collection-product-card p {
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: #5e6366;
+  text-align: justify;
+}
+/* Popular Collection Section Code End */

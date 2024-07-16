@@ -1,4 +1,4 @@
-@media only screen and (max-width: 576px) {
+@media only screen and (max-width: 645px) {
   /* Nav Section Code Start */
   nav {
     flex-direction: column;
@@ -38,4 +38,19 @@
     margin-top: 50px;
   }
   /* Banner Section Code End */
+  /* Popular Collection Section Code Start */
+  #popular-collection-of-products {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+  .popular-collection-card-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    justify-items: center;
+    align-items: center;
+    gap: 30px;
+  }
+  /* Popular Collection Section Code End */
 }
