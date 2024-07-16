@@ -178,9 +178,57 @@ nav ul li a {
   left: 90%;
   margin-top: 24px;
 }
-#popular-collection-of-products button span{
+#popular-collection-of-products button span {
   font-size: 1rem;
   font-weight: 700;
 }
 /* Popular Collection Section Code End */
-
+/* Featured Section Code Start */
+#featured-container {
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
+}
+.featured-image-container {
+  width: 40%;
+}
+#featured-container img {
+  width: 90%;
+}
+.featured-text-container {
+  width: 55%;
+}
+.featured-text-container h2 {
+  color: #0a0826;
+  font-size: 1.7rem;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+.featured-text-container p {
+  padding-right: 10%;
+  color: #6c6c6c;
+  font-size: 1rem;
+  font-weight: 500;
+  text-align: justify;
+  margin-bottom: 16px;
+}
+.featured-text-container button {
+  background-color: #e02c6ef5;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 700;
+  padding: 10px 25px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+.featured-text-container button span {
+  font-size: 1rem;
+  font-weight: 700;
+  padding-left: 10px;
+}
+/* Featured Section Code End */

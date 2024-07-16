@@ -57,4 +57,29 @@
     margin-top: 24px;
   }
   /* Popular Collection Section Code End */
+  /* Featured Section Code Start */
+  #featured-container {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap-reverse;
+    margin-bottom: 100px;
+  }
+  .featured-image-container {
+    width: 100%;
+  }
+  #featured-container img {
+    width: 100%;
+  }
+  .featured-text-container {
+    width: 100%;
+  }
+  .featured-text-container h2 {
+    text-align: center;
+  }
+  .featured-text-container p {
+    padding-right: 0;
+  }
+  /* Featured Section Code End */
 }
